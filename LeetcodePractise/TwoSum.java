@@ -1,4 +1,4 @@
-// Leetcode Problem Number : 2
+// Leetcode Problem Number : 1
 
 // Package name (must match folder structure, else remove this line)
 package LeetcodePractise;
