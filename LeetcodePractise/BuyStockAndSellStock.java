@@ -1,8 +1,7 @@
 // Leetcode Problem Number : 121
 
-package LeetcodePractise;   // Make sure folder structure matches (else remove this line)
+package LeetcodePractise;   // Remove this if you're not using packages
 
-// Import statements must come here, not inside the class
 import java.util.*;
 
 public class BuyStockAndSellStock {
@@ -29,7 +28,7 @@ public class BuyStockAndSellStock {
     public static void main(String[] args) {
         BuyStockAndSellStock obj = new BuyStockAndSellStock();
         
-        int[] prices = {7,1,5,3,6,4};
+        int[] prices = {7, 1, 5, 3, 6, 4};
         int result = obj.maxProfit(prices);
         
         System.out.println("Maximum Profit: " + result);
