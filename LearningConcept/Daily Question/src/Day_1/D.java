@@ -1,7 +1,7 @@
 package Day_1;
 
 import java.util.Scanner;
-// Reverse Array
+
 public class D {
     public static void main(String[] args) {
 
@@ -9,18 +9,33 @@ public class D {
 
         Scanner sc = new Scanner(System.in);
 
-        // ---------- 1. Hard-coded array ----------
+/*
+        // Hard-coded input
         int[] arr1 = {3, 7, 2, 9, 5};
 
         System.out.print("Original array (Hard-coded): ");
-        printArray(arr1);
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i] + " ");
+        }
+        System.out.println();
 
-        reverseArray(arr1);
+        int start1 = 0, end1 = arr1.length - 1;
+        while (start1 < end1) {
+            int temp = arr1[start1];
+            arr1[start1] = arr1[end1];
+            arr1[end1] = temp;
+            start1++;
+            end1--;
+        }
 
         System.out.print("Reversed array (Hard-coded): ");
-        printArray(arr1);
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i] + " ");
+        }
+        System.out.println();
+*/
 
-        // ---------- 2. User input array ----------
+        // User input
         System.out.print("Enter size of array: ");
         int n = sc.nextInt();
 
@@ -32,33 +47,26 @@ public class D {
         }
 
         System.out.print("Original array (User input): ");
-        printArray(arr2);
-
-        reverseArray(arr2);
-
-        System.out.print("Reversed array (User input): ");
-        printArray(arr2);
-
-        sc.close();
-    }
-
-    // Method to reverse array
-    static void reverseArray(int[] arr) {
-        int start = 0, end = arr.length - 1;
-        while (start < end) {
-            int temp = arr[start];
-            arr[start] = arr[end];
-            arr[end] = temp;
-            start++;
-            end--;
-        }
-    }
-
-    // Method to print array
-    static void printArray(int[] arr) {
-        for (int x : arr) {
-            System.out.print(x + " ");
+        for (int i = 0; i < arr2.length; i++) {
+            System.out.print(arr2[i] + " ");
         }
         System.out.println();
+
+        int start2 = 0, end2 = arr2.length - 1;
+        while (start2 < end2) {
+            int temp = arr2[start2];
+            arr2[start2] = arr2[end2];
+            arr2[end2] = temp;
+            start2++;
+            end2--;
+        }
+
+        System.out.print("Reversed array (User input): ");
+        for (int i = 0; i < arr2.length; i++) {
+            System.out.print(arr2[i] + " ");
+        }
+        System.out.println();
+
+        sc.close();
     }
 }
