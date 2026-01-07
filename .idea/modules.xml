@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Competitive Programming/Competitive Programming.iml" filepath="$PROJECT_DIR$/Competitive Programming/Competitive Programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA.iml" filepath="$PROJECT_DIR$/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearningConcept/Daily Question/Daily Question.iml" filepath="$PROJECT_DIR$/LearningConcept/Daily Question/Daily Question.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearningConcept/LearningConcept.iml" filepath="$PROJECT_DIR$/LearningConcept/LearningConcept.iml" />
     </modules>
   </component>
