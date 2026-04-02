@@ -1,23 +1,21 @@
-import java.util.jar.*;
+import java.util.*;
+
 public class PrintNto1 {
 
-    // Recursive function
-    public static int sum(int n) {
-        if (n == 1) {   // base case
-            return 1;
+    public static void printReverse(int n) {
+        if (n == 0) {   // base case
+            return;
         }
-        return n + sum(n - 1);  // recursive call
+
+        System.out.print(n + " ");  // print first
+        printReverse(n - 1);        // then recursive call
     }
 
     public static void main(String[] args) {
-        System.out.print("Enter a number: ");
         Scanner sc = new Scanner(System.in);
-
+        System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        int result = sum(n);
-
-        System.out.println(result);
+        printReverse(n);
     }
-
 }
