@@ -1,7 +1,8 @@
 package Practise.CArrays.Theory;
 
 public class One {
-    //Initialization of an array
+    
+    //Initialization and Printing of an array
     public static void main(String[] args) {
         int[] arr = new int[5]; // Declaration and initialization of an array of size 5
         arr[0] = 10; // Assigning values to the array
@@ -13,14 +14,7 @@ public class One {
         // Direct initialization of an array
         //int[] arr2 = {1, 2, 3, 4, 5};
 
-        // User Input for array elements (optional)
-        /*Scanner scanner = new Scanner(System.in);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print("Enter element for index " + i + ": ");
-            arr[i] = scanner.nextInt();
-        }   */
-
-        // Printing the elements of the array
+        // Printing or Access the elements of the array
         for (int i = 0; i < arr.length; i++) {
             System.out.println("Element at index " + i + ": " + arr[i]);
         }

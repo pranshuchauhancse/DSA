@@ -1,7 +1,7 @@
 package Practise.CArrays.Theory;
 
 public class Two {
-    // Chnaging the value of an array element
+    // Changing the value of an array element
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50}; // Direct initialization of an array
 
